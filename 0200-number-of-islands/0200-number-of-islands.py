@@ -1,34 +1,27 @@
 class Solution:
     def numIslands(self, grid: List[List[str]]) -> int:
-        if not grid:
-            return 0
-        rows , columns = len(grid) , len(grid[0])
-        visited = set()
-        num_islands = 0
 
-        def bfs(row , col):
-            q = collections.deque()
-            visited.add((row,col))
-            q.append((row,col))
+        num_of_islands = 0
 
-            while q:
-                row , col = q.popleft()
-                directions = [[0,1],[0,-1],[1,0],[-1,0]]
-               
-                for dr,dc in directions:
-                    r ,c = (row + dr) , (col + dc)
-                    if (r in range(rows) and c in range(columns) and grid[r][c] == "1" and (r,c) not in visited):
-                        visited.add((r,c))
-                        q.append((r,c))
+        for r in range(len(grid)):
+            for c in range(len(grid[0])):
+                if grid[r][c] == "1":
+                    num_of_islands += 1
+                    self.dfs(grid , r , c )
+        return  num_of_islands 
 
+    def dfs(self , grid , r , c):
 
+        if (r < 0 or r >= len(grid)  or c < 0 or c >= len(grid[0]) or grid[r][c] != "1"):
+            return
 
-        for r in range(rows):
-            for c in range(columns):
-                if grid[r][c] == "1" and (r , c) not in visited:
-                    bfs(r,c)
-                    num_islands += 1
-        return num_islands
+        grid[r][c] = "0"
+
+        self.dfs(grid , r + 1 , c)
+        self.dfs(grid , r - 1 , c)
+        self.dfs(grid , r  , c + 1) 
+        self.dfs(grid , r  , c - 1)   
+                    
 
 
-
+        
