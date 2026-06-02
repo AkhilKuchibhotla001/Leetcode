@@ -84,6 +84,7 @@
 | [0747-min-cost-climbing-stairs](https://github.com/Akhil-2006-ai/Leetcode/tree/master/0747-min-cost-climbing-stairs) |
 | [0792-binary-search](https://github.com/Akhil-2006-ai/Leetcode/tree/master/0792-binary-search) |
 | [0907-koko-eating-bananas](https://github.com/Akhil-2006-ai/Leetcode/tree/master/0907-koko-eating-bananas) |
+| [0994-rotting-oranges](https://github.com/Akhil-2006-ai/Leetcode/tree/master/0994-rotting-oranges) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/Akhil-2006-ai/Leetcode/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1091-shortest-path-in-binary-matrix](https://github.com/Akhil-2006-ai/Leetcode/tree/master/1091-shortest-path-in-binary-matrix) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/Akhil-2006-ai/Leetcode/tree/master/1878-check-if-array-is-sorted-and-rotated) |
@@ -165,6 +166,7 @@
 | [0200-number-of-islands](https://github.com/Akhil-2006-ai/Leetcode/tree/master/0200-number-of-islands) |
 | [0695-max-area-of-island](https://github.com/Akhil-2006-ai/Leetcode/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/Akhil-2006-ai/Leetcode/tree/master/0733-flood-fill) |
+| [0994-rotting-oranges](https://github.com/Akhil-2006-ai/Leetcode/tree/master/0994-rotting-oranges) |
 | [1091-shortest-path-in-binary-matrix](https://github.com/Akhil-2006-ai/Leetcode/tree/master/1091-shortest-path-in-binary-matrix) |
 ## Interactive
 |  |
@@ -282,6 +284,7 @@
 | [0226-invert-binary-tree](https://github.com/Akhil-2006-ai/Leetcode/tree/master/0226-invert-binary-tree) |
 | [0695-max-area-of-island](https://github.com/Akhil-2006-ai/Leetcode/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/Akhil-2006-ai/Leetcode/tree/master/0733-flood-fill) |
+| [0994-rotting-oranges](https://github.com/Akhil-2006-ai/Leetcode/tree/master/0994-rotting-oranges) |
 | [1091-shortest-path-in-binary-matrix](https://github.com/Akhil-2006-ai/Leetcode/tree/master/1091-shortest-path-in-binary-matrix) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/Akhil-2006-ai/Leetcode/tree/master/1544-count-good-nodes-in-binary-tree) |
 ## Binary Tree
