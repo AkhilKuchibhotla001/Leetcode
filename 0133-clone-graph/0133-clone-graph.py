@@ -13,23 +13,32 @@ class Solution:
         if not node:
             return None
 
-        old_to_new = {}
+        hashmap = {}
+
+        
 
         def dfs(node):
 
-            if node in old_to_new:
-                return old_to_new[node]
-            
-            clone = Node(node.val)
+           if node in hashmap:
+             return hashmap[node]
 
-            old_to_new[node] = clone
 
-            for nei in node.neighbors:
-                clone.neighbors.append(dfs(nei))
 
-            return clone
+           clone = Node(node.val)
+           hashmap[node] = clone
+
+           for nei in node.neighbors:
+            clone.neighbors.append(dfs(nei))
+
+           return clone
+
         return dfs(node)
-
     
+
+            
+
+
+
+
 
         
