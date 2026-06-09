@@ -14,31 +14,25 @@ class Solution:
             return None
 
         hashmap = {}
-
-        
-
         def dfs(node):
 
-           if node in hashmap:
-             return hashmap[node]
+            if node in hashmap:
+                return hashmap[node]
 
+            clone = Node(node.val)
+            hashmap[node] = clone
 
+            for nei in node.neighbors:
+                clone.neighbors.append(dfs(nei))
 
-           clone = Node(node.val)
-           hashmap[node] = clone
-
-           for nei in node.neighbors:
-            clone.neighbors.append(dfs(nei))
-
-           return clone
+            return clone
 
         return dfs(node)
+
+
+
+
+
     
-
-            
-
-
-
-
 
         
