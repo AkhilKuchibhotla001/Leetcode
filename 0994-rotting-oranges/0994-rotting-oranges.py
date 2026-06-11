@@ -1,40 +1,43 @@
 class Solution:
     def orangesRotting(self, grid: List[List[int]]) -> int:
-        fresh = 0
         queue = deque()
+
+        fresh = 0
 
         for r in range(len(grid)):
             for c in range(len(grid[0])):
+                if grid[r][c] == 1:
+                    fresh += 1
                 if grid[r][c] == 2:
                     queue.append((r , c))
-                elif grid[r][c] == 1:
-                    fresh += 1
 
         minutes = 0
-        
+
         while queue and fresh > 0:
+
             for _ in range(len(queue)):
 
-                r , c  = queue.popleft()
+      
 
-                directions = [( 1 , 0) , (-1 , 0) , (0 , 1) , (0 , -1)]
+              r , c = queue.popleft()
 
-                for dr , dc in directions:
+              directions = [(1 , 0) , (-1 , 0) , (0 , 1) , (0 , -1)]
 
-                    nr = r + dr 
-                    nc = c + dc
+              for dr , dc in directions:
 
-                    if (nr < 0 or nr >= len(grid) or nc < 0 or nc >= len(grid[0]) or grid[nr][nc] != 1):
+                nr = r + dr
+                nc = c + dc
 
-                        continue
+                if (nr < 0 or nr >= len(grid) or nc < 0 or nc >= len(grid[0]) or grid[nr][nc] != 1):
+                    continue
 
-                    grid[nr][nc] = 2
+                grid[nr][nc] = 2
+                fresh -= 1
 
-                    fresh -= 1
-
-                    queue.append((nr , nc))
+                queue.append((nr , nc))
 
             minutes += 1
+
         if fresh == 0:
             return minutes
         else:
@@ -42,5 +45,5 @@ class Solution:
 
 
 
-        
+
         
