@@ -10,15 +10,16 @@ from typing import Optional
 class Solution:
     def cloneGraph(self, node: Optional['Node']) -> Optional['Node']:
 
+
         if not node:
             return None
 
         hashmap = {}
-        def dfs(node):
 
+        def dfs(node):
             if node in hashmap:
                 return hashmap[node]
-
+            
             clone = Node(node.val)
             hashmap[node] = clone
 
@@ -28,11 +29,4 @@ class Solution:
             return clone
 
         return dfs(node)
-
-
-
-
-
-    
-
         
