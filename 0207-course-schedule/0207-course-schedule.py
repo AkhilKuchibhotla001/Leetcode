@@ -1,6 +1,6 @@
 class Solution:
     def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
-        hashmap = {i : [] for i in range(numCourses)}
+        hashmap = { i : [] for i in range(numCourses)}
 
         for crs , pre in prerequisites:
             hashmap[crs].append(pre)
@@ -19,17 +19,11 @@ class Solution:
                     return False
             visited.remove(crs)
             hashmap[crs] = []
-
             return True
+
         for crs in range(numCourses):
             if not dfs(crs):
                 return False
         return True
-
-
-
-
-
-
-
+        
         
