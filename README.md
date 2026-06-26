@@ -81,6 +81,7 @@
 | [0695-max-area-of-island](https://github.com/Akhil-2006-ai/Leetcode/tree/master/0695-max-area-of-island) |
 | [0724-find-pivot-index](https://github.com/Akhil-2006-ai/Leetcode/tree/master/0724-find-pivot-index) |
 | [0733-flood-fill](https://github.com/Akhil-2006-ai/Leetcode/tree/master/0733-flood-fill) |
+| [0746-min-cost-climbing-stairs](https://github.com/Akhil-2006-ai/Leetcode/tree/master/0746-min-cost-climbing-stairs) |
 | [0747-min-cost-climbing-stairs](https://github.com/Akhil-2006-ai/Leetcode/tree/master/0747-min-cost-climbing-stairs) |
 | [0792-binary-search](https://github.com/Akhil-2006-ai/Leetcode/tree/master/0792-binary-search) |
 | [0907-koko-eating-bananas](https://github.com/Akhil-2006-ai/Leetcode/tree/master/0907-koko-eating-bananas) |
@@ -115,6 +116,7 @@
 | [0198-house-robber](https://github.com/Akhil-2006-ai/Leetcode/tree/master/0198-house-robber) |
 | [0338-counting-bits](https://github.com/Akhil-2006-ai/Leetcode/tree/master/0338-counting-bits) |
 | [0392-is-subsequence](https://github.com/Akhil-2006-ai/Leetcode/tree/master/0392-is-subsequence) |
+| [0746-min-cost-climbing-stairs](https://github.com/Akhil-2006-ai/Leetcode/tree/master/0746-min-cost-climbing-stairs) |
 | [0747-min-cost-climbing-stairs](https://github.com/Akhil-2006-ai/Leetcode/tree/master/0747-min-cost-climbing-stairs) |
 | [1013-fibonacci-number](https://github.com/Akhil-2006-ai/Leetcode/tree/master/1013-fibonacci-number) |
 ## Greedy
