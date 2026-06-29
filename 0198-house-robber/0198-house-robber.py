@@ -1,14 +1,9 @@
 class Solution:
     def rob(self, nums: List[int]) -> int:
-        prev , curr = 0 , 0
-        for n in nums:
-          prev , curr = curr , max(curr , prev + n)
-        return curr
-    
-    
-       
+        prev_2 , prev_1 = 0 , 0
+        for num in nums:
+            curr = max(prev_1 , prev_2 + num)
+            prev_2 = prev_1
+            prev_1 = curr
+        return prev_1
         
-
-            
-        
-
