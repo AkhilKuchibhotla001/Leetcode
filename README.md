@@ -85,6 +85,7 @@
 | [0747-min-cost-climbing-stairs](https://github.com/Akhil-2006-ai/Leetcode/tree/master/0747-min-cost-climbing-stairs) |
 | [0792-binary-search](https://github.com/Akhil-2006-ai/Leetcode/tree/master/0792-binary-search) |
 | [0907-koko-eating-bananas](https://github.com/Akhil-2006-ai/Leetcode/tree/master/0907-koko-eating-bananas) |
+| [0912-sort-an-array](https://github.com/Akhil-2006-ai/Leetcode/tree/master/0912-sort-an-array) |
 | [0994-rotting-oranges](https://github.com/Akhil-2006-ai/Leetcode/tree/master/0994-rotting-oranges) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/Akhil-2006-ai/Leetcode/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1091-shortest-path-in-binary-matrix](https://github.com/Akhil-2006-ai/Leetcode/tree/master/1091-shortest-path-in-binary-matrix) |
@@ -103,6 +104,7 @@
 | [0229-majority-element-ii](https://github.com/Akhil-2006-ai/Leetcode/tree/master/0229-majority-element-ii) |
 | [0242-valid-anagram](https://github.com/Akhil-2006-ai/Leetcode/tree/master/0242-valid-anagram) |
 | [0349-intersection-of-two-arrays](https://github.com/Akhil-2006-ai/Leetcode/tree/master/0349-intersection-of-two-arrays) |
+| [0912-sort-an-array](https://github.com/Akhil-2006-ai/Leetcode/tree/master/0912-sort-an-array) |
 | [3262-find-polygon-with-the-largest-perimeter](https://github.com/Akhil-2006-ai/Leetcode/tree/master/3262-find-polygon-with-the-largest-perimeter) |
 ## Dynamic Programming
 |  |
@@ -192,6 +194,7 @@
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Akhil-2006-ai/Leetcode/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0169-majority-element](https://github.com/Akhil-2006-ai/Leetcode/tree/master/0169-majority-element) |
 | [0191-number-of-1-bits](https://github.com/Akhil-2006-ai/Leetcode/tree/master/0191-number-of-1-bits) |
+| [0912-sort-an-array](https://github.com/Akhil-2006-ai/Leetcode/tree/master/0912-sort-an-array) |
 ## Simulation
 |  |
 | ------- |
@@ -386,4 +389,24 @@
 | ------- |
 | [0207-course-schedule](https://github.com/Akhil-2006-ai/Leetcode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/Akhil-2006-ai/Leetcode/tree/master/0210-course-schedule-ii) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [0912-sort-an-array](https://github.com/Akhil-2006-ai/Leetcode/tree/master/0912-sort-an-array) |
+## Merge Sort
+|  |
+| ------- |
+| [0912-sort-an-array](https://github.com/Akhil-2006-ai/Leetcode/tree/master/0912-sort-an-array) |
+## Bucket Sort
+|  |
+| ------- |
+| [0912-sort-an-array](https://github.com/Akhil-2006-ai/Leetcode/tree/master/0912-sort-an-array) |
+## Radix Sort
+|  |
+| ------- |
+| [0912-sort-an-array](https://github.com/Akhil-2006-ai/Leetcode/tree/master/0912-sort-an-array) |
+## Counting Sort
+|  |
+| ------- |
+| [0912-sort-an-array](https://github.com/Akhil-2006-ai/Leetcode/tree/master/0912-sort-an-array) |
 <!---LeetCode Topics End-->
