@@ -40,6 +40,7 @@
 | [0392-is-subsequence](https://github.com/Akhil-2006-ai/Leetcode/tree/master/0392-is-subsequence) |
 | [0557-reverse-words-in-a-string-iii](https://github.com/Akhil-2006-ai/Leetcode/tree/master/0557-reverse-words-in-a-string-iii) |
 | [0812-rotate-string](https://github.com/Akhil-2006-ai/Leetcode/tree/master/0812-rotate-string) |
+| [1143-longest-common-subsequence](https://github.com/Akhil-2006-ai/Leetcode/tree/master/1143-longest-common-subsequence) |
 | [1894-merge-strings-alternately](https://github.com/Akhil-2006-ai/Leetcode/tree/master/1894-merge-strings-alternately) |
 ## Array
 |  |
@@ -124,6 +125,7 @@
 | [0746-min-cost-climbing-stairs](https://github.com/Akhil-2006-ai/Leetcode/tree/master/0746-min-cost-climbing-stairs) |
 | [0747-min-cost-climbing-stairs](https://github.com/Akhil-2006-ai/Leetcode/tree/master/0747-min-cost-climbing-stairs) |
 | [1013-fibonacci-number](https://github.com/Akhil-2006-ai/Leetcode/tree/master/1013-fibonacci-number) |
+| [1143-longest-common-subsequence](https://github.com/Akhil-2006-ai/Leetcode/tree/master/1143-longest-common-subsequence) |
 ## Greedy
 |  |
 | ------- |
