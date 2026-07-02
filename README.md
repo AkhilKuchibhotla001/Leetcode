@@ -80,6 +80,7 @@
 | [0229-majority-element-ii](https://github.com/Akhil-2006-ai/Leetcode/tree/master/0229-majority-element-ii) |
 | [0238-product-of-array-except-self](https://github.com/Akhil-2006-ai/Leetcode/tree/master/0238-product-of-array-except-self) |
 | [0287-find-the-duplicate-number](https://github.com/Akhil-2006-ai/Leetcode/tree/master/0287-find-the-duplicate-number) |
+| [0300-longest-increasing-subsequence](https://github.com/Akhil-2006-ai/Leetcode/tree/master/0300-longest-increasing-subsequence) |
 | [0349-intersection-of-two-arrays](https://github.com/Akhil-2006-ai/Leetcode/tree/master/0349-intersection-of-two-arrays) |
 | [0695-max-area-of-island](https://github.com/Akhil-2006-ai/Leetcode/tree/master/0695-max-area-of-island) |
 | [0724-find-pivot-index](https://github.com/Akhil-2006-ai/Leetcode/tree/master/0724-find-pivot-index) |
@@ -121,6 +122,7 @@
 | [0139-word-break](https://github.com/Akhil-2006-ai/Leetcode/tree/master/0139-word-break) |
 | [0198-house-robber](https://github.com/Akhil-2006-ai/Leetcode/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/Akhil-2006-ai/Leetcode/tree/master/0213-house-robber-ii) |
+| [0300-longest-increasing-subsequence](https://github.com/Akhil-2006-ai/Leetcode/tree/master/0300-longest-increasing-subsequence) |
 | [0338-counting-bits](https://github.com/Akhil-2006-ai/Leetcode/tree/master/0338-counting-bits) |
 | [0392-is-subsequence](https://github.com/Akhil-2006-ai/Leetcode/tree/master/0392-is-subsequence) |
 | [0509-fibonacci-number](https://github.com/Akhil-2006-ai/Leetcode/tree/master/0509-fibonacci-number) |
@@ -166,6 +168,7 @@
 | [0162-find-peak-element](https://github.com/Akhil-2006-ai/Leetcode/tree/master/0162-find-peak-element) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Akhil-2006-ai/Leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0287-find-the-duplicate-number](https://github.com/Akhil-2006-ai/Leetcode/tree/master/0287-find-the-duplicate-number) |
+| [0300-longest-increasing-subsequence](https://github.com/Akhil-2006-ai/Leetcode/tree/master/0300-longest-increasing-subsequence) |
 | [0349-intersection-of-two-arrays](https://github.com/Akhil-2006-ai/Leetcode/tree/master/0349-intersection-of-two-arrays) |
 | [0374-guess-number-higher-or-lower](https://github.com/Akhil-2006-ai/Leetcode/tree/master/0374-guess-number-higher-or-lower) |
 | [0792-binary-search](https://github.com/Akhil-2006-ai/Leetcode/tree/master/0792-binary-search) |
