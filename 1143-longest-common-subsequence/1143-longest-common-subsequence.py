@@ -3,13 +3,14 @@ class Solution:
         m = len(text1)
         n = len(text2)
 
-        dp = [[0] * (n + 1) for _ in range(m + 1)]
+        dp = [0] * (n + 1)
 
-        for i in range(len(text1) - 1, -1, -1):
-            for j in range(len(text2) - 1, -1, -1):
+        for i in range(len(text1) -1, -1, -1):
+            curr = [0] * (n + 1)
+            for j in range(len(text2) -1, -1, -1):
                 if text1[i] == text2[j]:
-                    dp[i][j] = 1 + dp[i +1][j + 1]
+                    curr[j] = 1 + dp[j + 1]
                 else:
-                    dp[i][j] = max(dp[i][j + 1], dp[i + 1][j])
-        return dp[0][0]
-        
+                    curr[j] = max(dp[j + 1] , dp[j] , curr[j + 1])
+            dp = curr
+        return dp[0]
