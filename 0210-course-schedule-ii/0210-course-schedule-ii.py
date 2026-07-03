@@ -1,12 +1,11 @@
 class Solution:
     def findOrder(self, numCourses: int, prerequisites: List[List[int]]) -> List[int]:
-        hashmap = { i : [] for i in range(numCourses)}
+        hashmap = {i : [] for i in range(numCourses)}
 
         for crs , pre in prerequisites:
             hashmap[crs].append(pre)
 
-        visited = set()
-        visiting = set()
+        visiting , visited = set() , set()
         output = []
 
         def dfs(crs):
@@ -22,9 +21,19 @@ class Solution:
             visiting.remove(crs)
             visited.add(crs)
             output.append(crs)
-
             return True
+
         for crs in range(numCourses):
             if not dfs(crs):
                 return []
         return output
+
+    
+
+
+
+
+
+
+
+        
