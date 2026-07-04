@@ -1,16 +1,17 @@
 class Solution:
     def sortArray(self, nums: List[int]) -> List[int]:
         return self.merge_sort(nums)
+    
+    def merge_sort(self,nums):
+        if len(nums) <= 1:
+            return nums
+        mid = len(nums) // 2
+        left = self.merge_sort(nums[: mid])
+        right = self.merge_sort(nums[mid :])
 
-    def merge_sort(self,arr):
-        if len(arr) <= 1:
-            return arr
-        mid = len(arr) // 2
-        left = self.merge_sort(arr[: mid])
-        right = self.merge_sort(arr[mid :])
+        ans =[]
+
         i = j = 0
-        ans = []
-
         while i < len(left) and j < len(right):
             if left[i] <= right[j]:
                 ans.append(left[i])
@@ -18,9 +19,8 @@ class Solution:
             else:
                 ans.append(right[j])
                 j += 1
-        ans.extend(left[i :])
+        ans.extend(left[i : ])
         ans.extend(right[j :])
-
         return ans
 
         
