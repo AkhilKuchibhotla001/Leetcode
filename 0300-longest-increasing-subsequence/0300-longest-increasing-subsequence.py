@@ -4,10 +4,8 @@ class Solution:
         for num in nums:
             left = 0
             right = len(dp)
-
             while left < right:
                 mid = (left + right) // 2
-
                 if dp[mid] < num:
                     left = mid + 1
                 else:
@@ -17,6 +15,12 @@ class Solution:
             else:
                 dp[left] = num
         return len(dp)
+            
+
+     
         
-        
-        
+
+
+                
+
+    
