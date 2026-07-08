@@ -117,6 +117,7 @@
 | ------- |
 | [0045-jump-game-ii](https://github.com/Akhil-2006-ai/Leetcode/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/Akhil-2006-ai/Leetcode/tree/master/0055-jump-game) |
+| [0062-unique-paths](https://github.com/Akhil-2006-ai/Leetcode/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/Akhil-2006-ai/Leetcode/tree/master/0070-climbing-stairs) |
 | [0072-edit-distance](https://github.com/Akhil-2006-ai/Leetcode/tree/master/0072-edit-distance) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Akhil-2006-ai/Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -195,6 +196,7 @@
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/Akhil-2006-ai/Leetcode/tree/master/0002-add-two-numbers) |
+| [0062-unique-paths](https://github.com/Akhil-2006-ai/Leetcode/tree/master/0062-unique-paths) |
 | [0069-sqrtx](https://github.com/Akhil-2006-ai/Leetcode/tree/master/0069-sqrtx) |
 | [0070-climbing-stairs](https://github.com/Akhil-2006-ai/Leetcode/tree/master/0070-climbing-stairs) |
 | [0509-fibonacci-number](https://github.com/Akhil-2006-ai/Leetcode/tree/master/0509-fibonacci-number) |
@@ -423,4 +425,8 @@
 |  |
 | ------- |
 | [0912-sort-an-array](https://github.com/Akhil-2006-ai/Leetcode/tree/master/0912-sort-an-array) |
+## Combinatorics
+|  |
+| ------- |
+| [0062-unique-paths](https://github.com/Akhil-2006-ai/Leetcode/tree/master/0062-unique-paths) |
 <!---LeetCode Topics End-->
