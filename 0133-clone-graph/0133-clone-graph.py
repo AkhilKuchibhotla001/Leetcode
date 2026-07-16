@@ -20,10 +20,7 @@ class Solution:
 
             for nei in node.neighbors:
                 clone.neighbors.append(dfs(nei))
-
             return clone
         return dfs(node)
-        
-        
 
         
