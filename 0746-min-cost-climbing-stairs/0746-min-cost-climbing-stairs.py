@@ -6,5 +6,4 @@ class Solution:
             curr = min(a + cost[i - 2] , b + cost[i - 1])
             a , b = b , curr
         return b
-
         
